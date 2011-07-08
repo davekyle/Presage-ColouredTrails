@@ -1,0 +1,2 @@
+random Seed,Iterations,verbose,serverPort,WorldType,NetworkType,ThreadDelay
+457753,4000,TRUE,9361,ise.ct.CTWorld,presage.networks.FullyConnectedWithAuth,100

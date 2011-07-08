@@ -1,0 +1,28 @@
+<protocol>
+   <name>arbitrationinvestigation</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.ARBRelinquishRequest</string>
+         </validMessages>
+   </state>
+   <state name="wait">
+         <validMessages>
+            <string>ise.ct.messages.ARBRelinquishResponse</string>
+         </validMessages>
+   </state>
+   <state name="awaitpunishment">
+         <validMessages>
+            <string>ise.ct.messages.ARBPunishment</string>
+         </validMessages>
+   </state>
+   <state name="awaitpunishconf">
+         <validMessages>
+         	<string>ise.ct.messages.ARBPay</string>
+         	<string>ise.ct.messages.ARBNonPayment</string>
+         </validMessages>
+   </state>
+   <state name="end">
+   	<validMessages>
+   	</validMessages>
+   </state>
+</protocol>

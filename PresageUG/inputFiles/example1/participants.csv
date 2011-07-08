@@ -1,0 +1,11 @@
+class,name,roles,icon,wRange
+ise.ct.participants.Nameserver,Nameserver,<nameserver>,null,0
+ise.ct.participants.BallotBox,BallotBox,<ballotbox>,null,0
+ise.ct.participants.RandomAgent,Agent Smith,<player><chiprequester>,smith.png,160
+ise.ct.participants.RandomAgent,Mr Incredible,<player>,incredible.png,200
+ise.ct.participants.RandomAgent,Cheese,<player>,cheese.png,150
+ise.ct.participants.RandomAgent,Ghostie,<player>,ghost.png,140
+ise.ct.participants.RandomAgent,Agent Orange,<player>,agentorange.gif,130
+ise.ct.participants.Auctionhouse,Auctionhouse,<auctionhouse>,null,0
+ise.ct.participants.Bank,Bank,<banker>,null,0
+ise.ct.participants.Arbiter,Arbiter,<arbiter>,null,0

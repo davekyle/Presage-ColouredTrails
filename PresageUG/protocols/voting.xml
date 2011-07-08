@@ -1,0 +1,24 @@
+<protocol>
+   <name>vote</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.TVRequestMessage</string>
+            <string>ise.ct.messages.TVNotificationMessage</string>
+         </validMessages>
+	</state>
+   <state name="voterequest">
+         <validMessages>
+            <string>ise.ct.messages.TVNotificationMessage</string>
+         </validMessages>
+	</state>
+   <state name="wait">
+         <validMessages>
+            <string>ise.ct.messages.TVVoteMessage</string>
+            <string>ise.ct.messages.TVResultMessage</string>
+         </validMessages>
+	</state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

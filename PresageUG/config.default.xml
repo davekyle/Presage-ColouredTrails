@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<database>
+		<driver>org.gjt.mm.mysql.Driver</driver>
+		<uri>jdbc:mysql://localhost/</uri>
+		<dbname>maindb</dbname>
+		<username>anonymous</username>
+		<password></password>
+	</database>
+</config>

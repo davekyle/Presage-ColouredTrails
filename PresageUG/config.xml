@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<database>
+		<driver>org.gjt.mm.mysql.Driver</driver>
+		<uri>jdbc:mysql://localhost/</uri>
+		<dbname>jpm04</dbname>
+		<username></username>
+		<password></password>
+	</database>
+</config>

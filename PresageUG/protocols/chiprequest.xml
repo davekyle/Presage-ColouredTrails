@@ -1,0 +1,20 @@
+<protocol>
+   <name>chiprequest</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.CERequestMessage</string>
+         </validMessages>
+	</state>
+   <state name="offer">
+         <validMessages>
+            <string>ise.ct.messages.CEReplyMessage</string>
+         </validMessages>
+	</state>
+   <state name="negotiate">
+   	<validMessages>
+   		<string>ise.ct.messages.CEReplyMessage</string></validMessages></state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

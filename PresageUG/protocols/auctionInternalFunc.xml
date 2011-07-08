@@ -1,0 +1,21 @@
+<protocol>
+   <name>auctionInternalFunc</name>
+   <state name="sell">
+         <validMessages>
+            <string>ise.ct.messages.AuctionInternalMessage</string>
+         </validMessages>
+   </state>
+   <state name="register">
+         <validMessages>
+            <string>ise.ct.messages.AuctionInternalMessage</string>
+         </validMessages>
+   </state>
+   <state name="stall">
+         <validMessages>
+         </validMessages>
+   </state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

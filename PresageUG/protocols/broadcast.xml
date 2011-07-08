@@ -1,0 +1,12 @@
+<protocol>
+   <name>nsbroadcast</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.NSAgentRegisteredMessage</string>
+         </validMessages>
+	</state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

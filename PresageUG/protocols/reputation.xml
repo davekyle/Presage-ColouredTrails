@@ -1,0 +1,12 @@
+<protocol>
+   <name>reputation</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.REPRenege</string>
+         </validMessages>
+   </state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

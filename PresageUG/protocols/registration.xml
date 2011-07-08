@@ -1,0 +1,17 @@
+<protocol>
+   <name>nsregistration</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.NSRegisterMessage</string>
+         </validMessages>
+	</state>
+   <state name="wait">
+         <validMessages>
+            <string>ise.ct.messages.NSReplyMessage</string>
+         </validMessages>
+	</state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>

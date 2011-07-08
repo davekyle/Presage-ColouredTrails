@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ctconfig>
+	<board>
+		<width>10</width>
+		<height>11</height>
+	</board>
+	<scoring>
+		<winbonus>10</winbonus>
+		<distanceweight>0.25</distanceweight>
+		<ownchipsweight>0.25</ownchipsweight>
+		<otherchipsweight>0.25</otherchipsweight>
+		<arbiterfine>0</arbiterfine>
+		<movefine>0</movefine>
+	</scoring>
+	<goaldistance>4</goaldistance>
+	<startingchips>0</startingchips>
+	<auctioncolours>2</auctioncolours>
+	<auctioninterval>10</auctioninterval>
+	<comment>Default Config</comment>
+	<iterations>5</iterations>
+	<timeout>10</timeout>
+</ctconfig>

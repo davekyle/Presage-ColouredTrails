@@ -1,0 +1,17 @@
+<protocol>
+	<name>banksend</name>
+		<state name="initial">
+			<validMessages>
+				<string>ise.ct.messages.BankTransfer</string>
+			</validMessages>
+		</state>
+		<state name="reply">
+			<validMessages>
+				<string>ise.ct.messages.BankReceipt</string>
+			</validMessages>
+		</state>
+		<state name="end">
+        	<validMessages>
+        	</validMessages>
+   		</state>
+</protocol>

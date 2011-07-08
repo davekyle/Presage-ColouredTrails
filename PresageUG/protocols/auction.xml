@@ -1,0 +1,34 @@
+<protocol>
+   <name>auction</name>
+   <state name="initial">
+         <validMessages>
+            <string>ise.ct.messages.AuctionStartMessage</string>
+         </validMessages>
+   </state>
+   <state name="participate">
+         <validMessages>
+            <string>ise.ct.messages.AuctionPriceMessage</string>
+            <string>ise.ct.messages.AuctionEndMessage</string>
+         </validMessages>
+   </state>
+   <state name="sell">
+         <validMessages>
+            <string>ise.ct.messages.AuctionYellMessage</string>
+            <string>ise.ct.messages.AuctionInternalMessage</string>
+         </validMessages>
+   </state>
+   <state name="register">
+         <validMessages>
+            <string>ise.ct.messages.AuctionYellMessage</string>
+            <string>ise.ct.messages.AuctionInternalMessage</string>
+         </validMessages>
+   </state>
+   <state name="stall">
+         <validMessages>
+         </validMessages>
+   </state>
+   <state name="end">
+         <validMessages>
+         </validMessages>
+   </state>
+</protocol>
